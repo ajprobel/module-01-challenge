@@ -20,10 +20,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* different font color in middle of company name */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* sets rules for the 3 navigation links */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -60,11 +62,13 @@ p {
     background-position: center;
 }
 
+/* Properties for images that justify left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Properties for images that justify right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -76,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/* Sets display styling/rules for the <aside> children */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,6 +110,7 @@ p {
     max-width: 150px;
 }
 
+/* Sets display properties for the images in the main <article> */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
